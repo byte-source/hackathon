@@ -1,0 +1,29 @@
+@mixin borderRadius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+div {
+  @include borderRadius(78px);
+}
+
+.success {
+  @extend div;
+  background-color: blue;
+}
+
+
+$content: "Second condsdsdsdssssssssssssssssssstent?" ;
+$content: "First content" !default;
+$new_content: "First time reference" !default;
+
+@function myfun($size) {
+  @return $size + px;
+}
+#main {
+  content: $content;
+  new-content: $new_content;
+  font-size: myfun(20);
+}

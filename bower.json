@@ -1,0 +1,24 @@
+{
+  "name": "test-starter",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Vikas <vsingh96@sapient.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation-sites": "^6.3.1",
+    "jquery": "^3.2.1",
+    "normalize-scss": "^3.0.3"
+  }
+}

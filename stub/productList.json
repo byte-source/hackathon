@@ -1,0 +1,26 @@
+{
+  "bags":[{
+    "name" : "college bag",
+    "brand" : "American Tourister",
+    "brandId" : "B1001",
+    "productId" : "P2001",
+    "color" : ["black", "pink", "red"],
+    "skus" : {
+      "black": "P2001001",
+      "pink" : "P2001002",
+      "red" : "P2001003"
+    }
+  },
+  {
+    "name" : "dummy college bag ",
+    "brand" : "American Tourister",
+    "brandId" : "B1002",
+    "productId" : "P2002",
+    "color" : ["black", "pink", "red"],
+    "skus" : {
+      "black": "P2002001",
+      "pink" : "P2002002",
+      "red" : "P2002003"
+    }
+  }]
+}
